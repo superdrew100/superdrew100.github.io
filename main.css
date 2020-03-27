@@ -1,3 +1,37 @@
-p {
-    color: blue;
+//.header_nav_img {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+header {
+    position: fixed;
+}
+nav {
+    display: flex;
+    background-color: DodgerBlue;
+}
+nav > a {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg");
+}
+
+aside {
+    display:flex;
+    max-width: 40px;
+    justify-content: flex-start;
+}
+
+aside > p {
+    justify-content: flex-end;
+    text-align: right;
 }
